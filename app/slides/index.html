@@ -4,10 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
-
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<title>Ideabank</title>
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -16,6 +13,7 @@
 
 		<link rel="stylesheet" href="../vendor/reveal.js/css/reveal.min.css">
 		<link rel="stylesheet" href="../vendor/reveal.js/css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="../css/app_override.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="../vendor/reveal.js/lib/css/zenburn.css">
@@ -38,6 +36,10 @@
 
 	<body>
 
+    <div id="topOverlay">
+      <a href="../">back to all templates</a>
+    </div>
+
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
@@ -57,6 +59,10 @@
 		<script src="../vendor/reveal.js/js/reveal.min.js"></script>
 
     <script src="../js/initReveal.js"></script>
+
+    <script type="text/javascript">//<![CDATA[
+document.write('<script src="' + (location.protocol || 'http:') + '//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
+//]]></script>
 
 	</body>
 </html>

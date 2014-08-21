@@ -1,5 +1,1 @@
-var templateName = "test";
-
-var hash = document.location.hash;
-
-templateName = hash.split('#')[1];
+var templateName = document.location.search.split('=')[1];

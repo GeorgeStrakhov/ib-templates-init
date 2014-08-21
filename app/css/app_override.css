@@ -1,0 +1,12 @@
+#topOverlay {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  z-index: 9999;
+  width: 200px;
+  padding: 5px;
+  padding-bottom: 7px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -1px;
+}
